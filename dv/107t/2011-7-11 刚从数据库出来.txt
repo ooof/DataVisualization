@@ -1,0 +1,16 @@
+2011-7-11 刚从数据库出来
+Nodes:11976
+Edges:19031
+
+过滤为11之后：
+Nodes:268   2.24%
+Edges:3135   16.47%
+
+
+
+
+original 原来
+self-loop 自我循环
+Directed 导演
+mutual 互相
+
