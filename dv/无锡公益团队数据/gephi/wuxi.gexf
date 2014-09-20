@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2014-09-08">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="类别" title="类别" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="个人捐款">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3680.7092" y="-1157.8497" z="0.0"></viz:position>
+        <viz:color r="81" g="216" b="236"></viz:color>
+      </node>
+      <node id="单车出行咨询">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-925.7454" y="2179.5632" z="0.0"></viz:position>
+        <viz:color r="88" g="81" b="236"></viz:color>
+      </node>
+      <node id="给猫找家">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-2261.1697" y="-653.288" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="142"></viz:color>
+      </node>
+      <node id="新媒体平台">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-2066.5635" y="1200.8584" z="0.0"></viz:position>
+        <viz:color r="236" g="162" b="81"></viz:color>
+      </node>
+      <node id="公众捐款">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3547.0422" y="871.04803" z="0.0"></viz:position>
+        <viz:color r="81" g="216" b="236"></viz:color>
+      </node>
+      <node id="义卖">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3491.3633" y="1072.4021" z="0.0"></viz:position>
+        <viz:color r="81" g="216" b="236"></viz:color>
+      </node>
+      <node id="杭州">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1192.7073" y="-2143.9224" z="0.0"></viz:position>
+        <viz:color r="189" g="236" b="81"></viz:color>
+      </node>
+      <node id="水保护">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-2198.8293" y="-892.5192" z="0.0"></viz:position>
+        <viz:color r="81" g="135" b="236"></viz:color>
+      </node>
+      <node id="生态社区建设">
+        <attvalues>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-764.00116" y="1995.067" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="81"></viz:color>
+      </node>
+      <node id="公民应对气候行动">
+        <attvalues>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1996.8138" y="131.71867" z="0.0"></viz:position>
+        <viz:color r="81" g="236" b="176"></viz:color>
+      </node>
+      <node id="政府购买">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3666.3914" y="185.57654" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="223"></viz:color>
+      </node>
+      <node id="企业捐款">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="64.0"></viz:size>
+        <viz:position x="3681.2258" y="-3.3603146" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="223"></viz:color>
+      </node>
+      <node id="9">
+        <attvalues>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="2670.978" y="1618.1555" z="0.0"></viz:position>
+        <viz:color r="81" g="236" b="115"></viz:color>
+      </node>
+      <node id="微信公众平台">
+        <attvalues>
+          <attvalue for="modularity_class" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1075.611" y="1720.7816" z="0.0"></viz:position>
+        <viz:color r="81" g="176" b="236"></viz:color>
+      </node>
+      <node id="微博">
+        <attvalues>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-2097.5781" y="-474.18958" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="162"></viz:color>
+      </node>
+      <node id="整个平台">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-2304.0732" y="-81.34994" z="0.0"></viz:position>
+        <viz:color r="189" g="81" b="236"></viz:color>
+      </node>
+      <node id="南都基金会">
+        <attvalues>
+          <attvalue for="modularity_class" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="2198.3413" y="-2962.6052" z="0.0"></viz:position>
+        <viz:color r="236" g="101" b="81"></viz:color>
+      </node>
+      <node id="大众募捐">
+        <attvalues>
+          <attvalue for="modularity_class" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3131.2925" y="-2036.67" z="0.0"></viz:position>
+        <viz:color r="236" g="101" b="81"></viz:color>
+      </node>
+      <node id="3">
+        <attvalues>
+          <attvalue for="modularity_class" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="1911.913" y="1946.6212" z="0.0"></viz:position>
+        <viz:color r="81" g="236" b="236"></viz:color>
+      </node>
+      <node id="杂志电子化">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-946.8489" y="1887.0857" z="0.0"></viz:position>
+        <viz:color r="236" g="223" b="81"></viz:color>
+      </node>
+      <node id="微信公众平 ">
+        <attvalues>
+          <attvalue for="modularity_class" value="21"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1502.5472" y="1328.027" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="101"></viz:color>
+      </node>
+      <node id="社会捐款">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3637.189" y="-1322.7345" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="223"></viz:color>
+      </node>
+      <node id="地图网站">
+        <attvalues>
+          <attvalue for="modularity_class" value="22"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-2292.308" y="-368.19376" z="0.0"></viz:position>
+        <viz:color r="128" g="81" b="236"></viz:color>
+      </node>
+      <node id="咨询所得">
+        <attvalues>
+          <attvalue for="modularity_class" value="24"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="2538.4812" y="-2656.3428" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="202"></viz:color>
+      </node>
+      <node id="改善网站">
+        <attvalues>
+          <attvalue for="modularity_class" value="25"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1826.8724" y="808.74084" z="0.0"></viz:position>
+        <viz:color r="81" g="155" b="236"></viz:color>
+      </node>
+      <node id="社交游戏">
+        <attvalues>
+          <attvalue for="modularity_class" value="26"></attvalue>
+        </attvalues>
+        <viz:size value="64.0"></viz:size>
+        <viz:position x="-1852.027" y="550.0453" z="0.0"></viz:position>
+        <viz:color r="236" g="122" b="81"></viz:color>
+      </node>
+      <node id="城市社区环保">
+        <attvalues>
+          <attvalue for="modularity_class" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1993.7275" y="-749.9658" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="182"></viz:color>
+      </node>
+      <node id="SEE基金会">
+        <attvalues>
+          <attvalue for="modularity_class" value="29"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3693.5916" y="-422.67236" z="0.0"></viz:position>
+        <viz:color r="149" g="236" b="81"></viz:color>
+      </node>
+      <node id="太平洋环境组织">
+        <attvalues>
+          <attvalue for="modularity_class" value="29"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3681.757" y="-245.93413" z="0.0"></viz:position>
+        <viz:color r="149" g="236" b="81"></viz:color>
+      </node>
+      <node id="5">
+        <attvalues>
+          <attvalue for="modularity_class" value="30"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="2897.3955" y="1474.7397" z="0.0"></viz:position>
+        <viz:color r="169" g="81" b="236"></viz:color>
+      </node>
+      <node id="推动饮品行业供应链环境质量管理">
+        <attvalues>
+          <attvalue for="modularity_class" value="31"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-2216.599" y="374.37726" z="0.0"></viz:position>
+        <viz:color r="81" g="196" b="236"></viz:color>
+      </node>
+      <node id="22">
+        <attvalues>
+          <attvalue for="modularity_class" value="32"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="1574.234" y="2028.779" z="0.0"></viz:position>
+        <viz:color r="81" g="236" b="216"></viz:color>
+      </node>
+      <node id="昆明">
+        <attvalues>
+          <attvalue for="modularity_class" value="33"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1352.2032" y="-2009.1971" z="0.0"></viz:position>
+        <viz:color r="229" g="236" b="81"></viz:color>
+      </node>
+      <node id="参与式流域管理">
+        <attvalues>
+          <attvalue for="modularity_class" value="34"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1902.4913" y="1453.273" z="0.0"></viz:position>
+        <viz:color r="88" g="236" b="81"></viz:color>
+      </node>
+      <node id="倡导社区为主导的灾害管理">
+        <attvalues>
+          <attvalue for="modularity_class" value="35"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1603.9712" y="1615.8818" z="0.0"></viz:position>
+        <viz:color r="236" g="202" b="81"></viz:color>
+      </node>
+      <node id="阿拉善基金">
+        <attvalues>
+          <attvalue for="modularity_class" value="36"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3724.5603" y="-783.77625" z="0.0"></viz:position>
+        <viz:color r="81" g="236" b="155"></viz:color>
+      </node>
+      <node id="广州千禾基金会">
+        <attvalues>
+          <attvalue for="modularity_class" value="36"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="2827.6636" y="-2346.8489" z="0.0"></viz:position>
+        <viz:color r="81" g="236" b="155"></viz:color>
+      </node>
+      <node id="香港乐施会">
+        <attvalues>
+          <attvalue for="modularity_class" value="36"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3726.8298" y="-993.28534" z="0.0"></viz:position>
+        <viz:color r="81" g="236" b="155"></viz:color>
+      </node>
+      <node id="德国罗莎卢森堡基金会">
+        <attvalues>
+          <attvalue for="modularity_class" value="36"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="2688.5068" y="-2505.3354" z="0.0"></viz:position>
+        <viz:color r="81" g="236" b="155"></viz:color>
+      </node>
+      <node id="7">
+        <attvalues>
+          <attvalue for="modularity_class" value="37"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="2441.9575" y="1730.4191" z="0.0"></viz:position>
+        <viz:color r="108" g="81" b="236"></viz:color>
+      </node>
+      <node id="使绿色贷款透明度高">
+        <attvalues>
+          <attvalue for="modularity_class" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1214.9177" y="1235.1118" z="0.0"></viz:position>
+        <viz:color r="229" g="81" b="236"></viz:color>
+      </node>
+      <node id="利用新媒体改善银行融资行为">
+        <attvalues>
+          <attvalue for="modularity_class" value="39"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1247.141" y="1501.3662" z="0.0"></viz:position>
+        <viz:color r="209" g="81" b="236"></viz:color>
+      </node>
+      <node id="支持引导大学生参与公益">
+        <attvalues>
+          <attvalue for="modularity_class" value="40"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1690.5854" y="1845.8839" z="0.0"></viz:position>
+        <viz:color r="81" g="115" b="236"></viz:color>
+      </node>
+      <node id="学生中传播公益理念">
+        <attvalues>
+          <attvalue for="modularity_class" value="41"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1740.5028" y="1133.8112" z="0.0"></viz:position>
+        <viz:color r="149" g="81" b="236"></viz:color>
+      </node>
+      <node id="公益影像">
+        <attvalues>
+          <attvalue for="modularity_class" value="42"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1308.8145" y="1780.6106" z="0.0"></viz:position>
+        <viz:color r="209" g="236" b="81"></viz:color>
+      </node>
+      <node id="三星">
+        <attvalues>
+          <attvalue for="modularity_class" value="43"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="2042.0852" y="-3051.2202" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="122"></viz:color>
+      </node>
+      <node id="多加宝">
+        <attvalues>
+          <attvalue for="modularity_class" value="43"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3256.1292" y="-1878.8721" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="122"></viz:color>
+      </node>
+      <node id="好丽友">
+        <attvalues>
+          <attvalue for="modularity_class" value="43"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="2981.9795" y="-2182.492" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="122"></viz:color>
+      </node>
+      <node id="西部阳光">
+        <attvalues>
+          <attvalue for="modularity_class" value="43"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3727.596" y="-603.5813" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="122"></viz:color>
+      </node>
+      <node id="心平基金会">
+        <attvalues>
+          <attvalue for="modularity_class" value="43"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3404.9998" y="-1698.4982" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="122"></viz:color>
+      </node>
+      <node id="冠军基金">
+        <attvalues>
+          <attvalue for="modularity_class" value="43"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3562.881" y="-1531.0851" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="122"></viz:color>
+      </node>
+      <node id="推广《绿绒蒿》">
+        <attvalues>
+          <attvalue for="modularity_class" value="44"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-2001.5905" y="-168.02682" z="0.0"></viz:position>
+        <viz:color r="81" g="95" b="236"></viz:color>
+      </node>
+      <node id="专题网页">
+        <attvalues>
+          <attvalue for="modularity_class" value="45"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1229.5762" y="1993.404" z="0.0"></viz:position>
+        <viz:color r="81" g="236" b="135"></viz:color>
+      </node>
+      <node id="拜客广州">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="650.13684" y="675.15576" z="0.0"></viz:position>
+        <viz:color r="81" g="216" b="236"></viz:color>
+      </node>
+      <node id="广州">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1512.1685" y="-1874.6008" z="0.0"></viz:position>
+        <viz:color r="81" g="236" b="95"></viz:color>
+      </node>
+      <node id="幸运土猫">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="598.7203" y="-520.0904" z="0.0"></viz:position>
+        <viz:color r="81" g="216" b="236"></viz:color>
+      </node>
+      <node id="基金会">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="92.0"></viz:size>
+        <viz:position x="3595.582" y="641.90674" z="0.0"></viz:position>
+        <viz:color r="81" g="216" b="236"></viz:color>
+      </node>
+      <node id="绿色浙江">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="563.8151" y="-1044.6896" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="223"></viz:color>
+      </node>
+      <node id="网站">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="78.0"></viz:size>
+        <viz:position x="-2220.5918" y="821.8357" z="0.0"></viz:position>
+        <viz:color r="108" g="236" b="81"></viz:color>
+      </node>
+      <node id="《社会创业家》">
+        <attvalues>
+          <attvalue for="modularity_class" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="693.0558" y="943.8712" z="0.0"></viz:position>
+        <viz:color r="236" g="101" b="81"></viz:color>
+      </node>
+      <node id="北京">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="92.0"></viz:size>
+        <viz:position x="-1687.9463" y="-1649.697" z="0.0"></viz:position>
+        <viz:color r="128" g="236" b="81"></viz:color>
+      </node>
+      <node id="中国水安全计划公益基金">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="644.2638" y="406.2098" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="223"></viz:color>
+      </node>
+      <node id="APP">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="120.0"></viz:size>
+        <viz:position x="-635.5819" y="2256.8362" z="0.0"></viz:position>
+        <viz:color r="81" g="236" b="196"></viz:color>
+      </node>
+      <node id="小鸭嘎嘎">
+        <attvalues>
+          <attvalue for="modularity_class" value="24"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="566.4512" y="-763.2611" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="202"></viz:color>
+      </node>
+      <node id="深圳">
+        <attvalues>
+          <attvalue for="modularity_class" value="23"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1037.547" y="-2265.9824" z="0.0"></viz:position>
+        <viz:color r="236" g="142" b="81"></viz:color>
+      </node>
+      <node id="绿石环境行动网络">
+        <attvalues>
+          <attvalue for="modularity_class" value="29"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="525.9988" y="-1314.9688" z="0.0"></viz:position>
+        <viz:color r="149" g="236" b="81"></viz:color>
+      </node>
+      <node id="江苏">
+        <attvalues>
+          <attvalue for="modularity_class" value="27"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-867.9206" y="-2355.3125" z="0.0"></viz:position>
+        <viz:color r="169" g="236" b="81"></viz:color>
+      </node>
+      <node id="一加一（北京）残障人文化发展中心">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="731.23114" y="1231.4017" z="0.0"></viz:position>
+        <viz:color r="81" g="216" b="236"></viz:color>
+      </node>
+      <node id="公益奖项">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="3640.5403" y="387.33142" z="0.0"></viz:position>
+        <viz:color r="81" g="216" b="236"></viz:color>
+      </node>
+      <node id="绿色流域">
+        <attvalues>
+          <attvalue for="modularity_class" value="36"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="626.53284" y="115.40139" z="0.0"></viz:position>
+        <viz:color r="81" g="236" b="155"></viz:color>
+      </node>
+      <node id="友成基金会">
+        <attvalues>
+          <attvalue for="modularity_class" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="64.0"></viz:size>
+        <viz:position x="2366.798" y="-2812.0032" z="0.0"></viz:position>
+        <viz:color r="236" g="101" b="81"></viz:color>
+      </node>
+      <node id="益微">
+        <attvalues>
+          <attvalue for="modularity_class" value="43"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="612.8464" y="-190.05023" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="122"></viz:color>
+      </node>
+      <node id="4">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="78.0"></viz:size>
+        <viz:position x="2193.0767" y="1862.6837" z="0.0"></viz:position>
+        <viz:color r="236" g="182" b="81"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="拜客广州" target="广州">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="拜客广州" target="基金会">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="拜客广州" target="个人捐款">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="拜客广州" target="单车出行咨询">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="拜客广州" target="APP">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="拜客广州" target="4">
+        <attvalues>
+          <attvalue for="类别" value="全职人数"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="拜客广州" target="网站">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="幸运土猫" target="基金会">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="幸运土猫" target="APP">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="幸运土猫" target="4">
+        <attvalues>
+          <attvalue for="类别" value="全职人数"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="幸运土猫" target="北京">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="幸运土猫" target="给猫找家">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="幸运土猫" target="新媒体平台">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="幸运土猫" target="公众捐款">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="幸运土猫" target="义卖">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色浙江" target="基金会">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色浙江" target="网站">
+        <attvalues>
+          <attvalue for="类别" value="已有平台"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色浙江" target="杭州">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="绿色浙江" target="水保护">
+        <attvalues>
+          <attvalue for="类别" value="工作范围"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色浙江" target="生态社区建设">
+        <attvalues>
+          <attvalue for="类别" value="工作范围"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色浙江" target="公民应对气候行动">
+        <attvalues>
+          <attvalue for="类别" value="工作范围"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色浙江" target="政府购买">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色浙江" target="企业捐款">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色浙江" target="9">
+        <attvalues>
+          <attvalue for="类别" value="全职人数"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色浙江" target="微信公众平台">
+        <attvalues>
+          <attvalue for="类别" value="已有平台"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色浙江" target="微博">
+        <attvalues>
+          <attvalue for="类别" value="已有平台"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色浙江" target="整个平台">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="《社会创业家》" target="北京">
+        <attvalues>
+          <attvalue for="类别" value="所在地"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="《社会创业家》" target="南都基金会">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="《社会创业家》" target="友成基金会">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="《社会创业家》" target="大众募捐">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="《社会创业家》" target="3">
+        <attvalues>
+          <attvalue for="类别" value="全职人数"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="《社会创业家》" target="杂志电子化">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="《社会创业家》" target="微信公众平 ">
+        <attvalues>
+          <attvalue for="类别" value="技术目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="中国水安全计划公益基金" target="APP">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="中国水安全计划公益基金" target="企业捐款">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="中国水安全计划公益基金" target="社会捐款">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="中国水安全计划公益基金" target="地图网站">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="小鸭嘎嘎" target="APP">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="小鸭嘎嘎" target="深圳">
+        <attvalues>
+          <attvalue for="类别" value="所在地"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="小鸭嘎嘎" target="咨询所得">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="小鸭嘎嘎" target="改善网站">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="小鸭嘎嘎" target="社交游戏">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿石环境行动网络" target="APP">
+        <attvalues>
+          <attvalue for="类别" value="技术目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿石环境行动网络" target="江苏">
+        <attvalues>
+          <attvalue for="类别" value="所在地"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿石环境行动网络" target="城市社区环保">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="绿石环境行动网络" target="SEE基金会">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿石环境行动网络" target="太平洋环境组织">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿石环境行动网络" target="5">
+        <attvalues>
+          <attvalue for="类别" value="全职人数"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿石环境行动网络" target="推动饮品行业供应链环境质量管理">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="一加一（北京）残障人文化发展中心" target="基金会">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="一加一（北京）残障人文化发展中心" target="APP">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="一加一（北京）残障人文化发展中心" target="网站">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="一加一（北京）残障人文化发展中心" target="北京">
+        <attvalues>
+          <attvalue for="类别" value="所在地"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="一加一（北京）残障人文化发展中心" target="公益奖项">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="一加一（北京）残障人文化发展中心" target="22">
+        <attvalues>
+          <attvalue for="类别" value="全职人数"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色流域" target="友成基金会">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色流域" target="昆明">
+        <attvalues>
+          <attvalue for="类别" value="所在地"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色流域" target="参与式流域管理">
+        <attvalues>
+          <attvalue for="类别" value="工作范围"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色流域" target="倡导社区为主导的灾害管理">
+        <attvalues>
+          <attvalue for="类别" value="工作范围"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色流域" target="阿拉善基金">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色流域" target="广州千禾基金会">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色流域" target="香港乐施会">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色流域" target="德国罗莎卢森堡基金会">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色流域" target="7">
+        <attvalues>
+          <attvalue for="类别" value="全职人数"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色流域" target="使绿色贷款透明度高">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="绿色流域" target="利用新媒体改善银行融资行为">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="4">
+        <attvalues>
+          <attvalue for="类别" value="全职人数"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="北京">
+        <attvalues>
+          <attvalue for="类别" value="所在地"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="社交游戏">
+        <attvalues>
+          <attvalue for="类别" value="技术目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="支持引导大学生参与公益">
+        <attvalues>
+          <attvalue for="类别" value="工作范围"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="学生中传播公益理念">
+        <attvalues>
+          <attvalue for="类别" value="工作范围"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="公益影像">
+        <attvalues>
+          <attvalue for="类别" value="工作范围"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="三星">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="多加宝">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="好丽友">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="西部阳光">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="心平基金会">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="冠军基金">
+        <attvalues>
+          <attvalue for="类别" value="资金来源"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="推广《绿绒蒿》">
+        <attvalues>
+          <attvalue for="类别" value="项目目标"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="益微" target="专题网页">
+        <attvalues>
+          <attvalue for="类别" value="技术目标"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
