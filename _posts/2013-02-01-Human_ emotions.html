@@ -1,17 +1,17 @@
 ---
 layout: layouts
-title: 50推友关系图
-tag: test tagtest tagtest3
+title: 人类情绪图谱
+tag: 情绪
 dvtools: Gephi
 author: ooof
 author_links: http://digitip.net
 releasing_time: 2012/4/23
-source: http://ooof.github.io/DataVisualization/dv/50-twitter/
+source: http://ooof.github.io/DataVisualization/dv/rlqx/
 ---
 
 
     <div class="container">
-     <center><img src="{{ page.source }}img/50-jin.png"></center>
+     <center><img src="{{ page.source }}img/人类情绪图谱.png"></center>
 
 	<p>{{ page.date | date_to_string }} < {{ page.tag }} > {{ page.dvtools }} <a href="{{ page.author_links }}">{{ page.author }}</a> {{ page.releasing_time }}</p> 
 	 
@@ -25,7 +25,7 @@ source: http://ooof.github.io/DataVisualization/dv/50-twitter/
               <h3 class="panel-title">数据来源</h3>
             </div>
             <div class="panel-body">
-              采集自推特
+              人工整理
             </div>
           </div>
 		  </div>
@@ -39,7 +39,8 @@ source: http://ooof.github.io/DataVisualization/dv/50-twitter/
               <h3 class="panel-title">所用数据</h3>
             </div>
             <div class="panel-body">
-              <ol><li><a href="{{ page.source }}db/twiyia-2011-7-1-page48.htm">名单部分</a></li></ol>
+              <ol><li><a href="{{ page.source }}db/feelings [Nodes].csv">节点数据</a></li></ol>
+			  <ol><li><a href="{{ page.source }}db/feelings [Edges].csv">节点数据</a></li></ol>
             </div>
           </div>
         </div>
@@ -51,8 +52,7 @@ source: http://ooof.github.io/DataVisualization/dv/50-twitter/
             </div>
             <div class="panel-body">
               <ol>
-			  <li><a href="{{ page.source }}graphml/twitter_100.graphml">yEd源文件</a></li>
-				<li><a href="{{ page.source }}gephi/twitter_100.gephi">Gephi源文件</a></li>
+			  <li><a href="{{ page.source }}gephi/feelings.gephi">gephi 文件</a></li>
 				</ol>
             </div>
           </div>
@@ -64,7 +64,7 @@ source: http://ooof.github.io/DataVisualization/dv/50-twitter/
               <h3 class="panel-title">输出结果</h3>
             </div>
             <div class="panel-body">
-              <ol><li><a href="{{ page.source }}img/50-jin.png">图片</a></li></ol>
+              <ol><li><a href="{{ page.source }}img/人类情绪图谱.png">人类情绪图谱</a></li></ol>
             </div>
           </div>		  
         </div>
