@@ -1,18 +1,18 @@
 ---
 layout: layouts
-title: 人类情绪图谱
-tag: 情绪
+title: 临汾政府预算信息
+tag: 临汾 预算 政府
 dvtools: Gephi
 author: ooof
 author_links: http://digitip.net
 releasing_time: 2012/4/23
-source: http://ooof.github.io/DataVisualization/dv/rlqx/
+source: http://ooof.github.io/DataVisualization/dv/linfenyusuan/
 ---
 
 <div class="container">
 
 	<!-- 页面上方展示图片 -->
-	<center><img src="{{ page.source }}img/人类情绪图谱.png"></center> 
+	<center><img src="{{ page.source }}img/分层预算图1.png"></center> 
 
 	<center> <!-- 图片信息 -->
 		<p>{{ page.date | date_to_string }} < {{ page.tag }} > {{ page.dvtools }} <a href="{{ page.author_links }}">{{ page.author }}</a> {{ page.releasing_time }}</p>
@@ -29,7 +29,7 @@ source: http://ooof.github.io/DataVisualization/dv/rlqx/
               <h3 class="panel-title">数据来源</h3>
             </div>
             <div class="panel-body">   <!-- 下面填写开放发布的数据来源 -->
-              人工整理
+              <a href="http://www.linfen.gov.cn/Class-bumenyusuan.asp?ClassID=258">临汾政府网-部门预算公开页</a>
             </div>
           </div>
 		  </div>
@@ -42,9 +42,16 @@ source: http://ooof.github.io/DataVisualization/dv/rlqx/
             <div class="panel-heading">
               <h3 class="panel-title">所用数据</h3>
             </div>
-            <div class="panel-body">   <!-- 下面填写可视化所用数据 -->
-              <ol><li><a href="{{ page.source }}db/feelings [Nodes].csv">节点数据</a></li></ol>
-			  <ol><li><a href="{{ page.source }}db/feelings [Edges].csv">节点数据</a></li></ol>
+            <div class="panel-body">   <!-- 下面填写可视化所用数据 {{ source }} -->
+			<ol>
+				<li><a href="{{ source }}db/带链接的各单位名单.xlsx">带链接的各单位名单</a></li>
+				<li><a href="{{ source }}db/临汾政府预算名单.html">各单位名单.html</a></li>
+				<li><a href="{{ source }}db/2014临汾政府181个单位预算数据（截止2014-8-28）.xlsx">182各单位的原始预算表格.xlsx</a></li>
+				<li><a href="{{ source }}db/收入公式.txt">收入统计公式.txt</a></li>
+				<li><a href="{{ source }}db/支出公式.txt">支出统计公式.txt</a></li>
+				<li><a href="{{ source }}db/预算总表.xlsx">整理好的表格文件.csv</a></li>
+				<li><a href="{{ source }}db/预算源-目标表-gephi.csv">预算源-目标表.csv</a></li>
+			</ol>
             </div>
           </div>
         </div>
@@ -55,7 +62,10 @@ source: http://ooof.github.io/DataVisualization/dv/rlqx/
               <h3 class="panel-title">过程文件</h3>
             </div>
             <div class="panel-body">   <!-- 下面填写过程文件 -->
-              <ol><li><a href="{{ page.source }}gephi/feelings.gephi">gephi 文件</a></li></ol>
+				<ol>
+					  <li><a href="{{ source }}db/未处理边权重的.gephi">未处理边权重的 Gephi 文件</a></li>
+					  <li><a href="{{ source }}db/重新计算边权重后的.gephi">重新计算边权重后的 Gephi 文件</a></li>
+				</ol>
             </div>
           </div>
         </div>
@@ -66,7 +76,11 @@ source: http://ooof.github.io/DataVisualization/dv/rlqx/
               <h3 class="panel-title">输出结果</h3>
             </div>
             <div class="panel-body">     <!-- 下面填写各种方式的输出结果 -->
-              <ol><li><a href="{{ page.source }}img/人类情绪图谱.png">人类情绪图谱</a></li></ol>
+              <ol>
+				<li><a href="{{ source }}img/2014临汾政府预算数据图1.png">预算板块图1</a></li>
+				<li><a href="{{ source }}img/2014临汾政府预算数据图2.png">预算板块图2</a></li>
+				<li><a href="http://ooof.github.io/LinFenYuSuan/">临汾政府信息公开（预算部分）可视化项目</a></li>
+				</ol>
             </div>
           </div>		  
         </div>
@@ -79,7 +93,7 @@ source: http://ooof.github.io/DataVisualization/dv/rlqx/
         <h1>制图说明</h1>
       </div>
       <div class="well">    <!-- 下面填写图片故事或制图过程/技术说明 -->
-        <p>数据用 Gabe Sawhney 的程序采集自推特，用 yEd 完成图形，所呈现的是 50 个推特用户之间的跟随关系。</p>
+        <p>用临汾政府信息公开中的预算信息公开制作的。</p>
       </div>
 
 
