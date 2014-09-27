@@ -1,15 +1,119 @@
----
-title:  数据可视化开放发布
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-<h2>{{ page.title }}</h2>
+    <title>ooof 可视化图表集</title>
 
-<p>最新可视化作品</p>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
-<ul>
+    <!-- Custom styles for this template -->
+    <link href="css/theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body role="document">
+<br><br><br><br>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand">ooof 可视化作品集</div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="about.html">关于</a></li>
+            <li><a href="DVOPI.html">数据可视化开放发布倡议</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+<br><br>
+    <div class="container theme-showcase" role="main">
+
+
+
+	
+
+			<table class="table">
+			
+		
+			
+			
+			
+            <thead>
+              <tr>
+                <th>日期</th>
+                <th>图片名称</th>
+                <th>Tag</th>
+                <th>可视化工具</th>
+				<th>设计者</th>
+				<th>首发时间</th>
+
+              </tr>
+            </thead>
+			
+
     {% for post in site.posts %}
-      <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-	  < {{ post.tag }} > {{ post.dvtools }} <a href="{{ post.author_links }}">{{ post.author }}</a> {{ post.releasing_time }}</li>
+		<td>{{ post.date | date_to_string }}</td>
+		<td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
+		<td> {{ post.tag }} </td>
+		<td>{{ post.dvtools }}</td>
+		<td><a href="{{ post.author_links }}">{{ post.author }}</a></td>
+		<td>{{ post.releasing_time }}</td>
     {% endfor %}
-</ul>
+	
 
+			  
+            </tbody>
+			
+          </table>
+
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+	
+	
+<div class="page-header"></div>	
+<center>
+
+
+
+</center>
+<div class="page-header"></div>		
+  </body>
+</html>
