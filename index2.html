@@ -10,8 +10,8 @@ title:  数据可视化开放发布
 <ul>
     {% for post in site.posts %}
       <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-	  {{ post.tag }}{{ dvtools }} <a href="{{ post.author link }}">{{ author }}</a>{{ first published date }}</li>
+	  {{ post.tag }}{{ dvtools }} <a href="{{ post.authorlink }}">{{ author }}</a>{{ firstpublisheddate }}</li>
     {% endfor %}
 </ul>
 
-<h1>{{ 群力维护它 }}</h1>
+<h1>群力维护它</h1>
