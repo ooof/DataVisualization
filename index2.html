@@ -79,14 +79,12 @@
             </thead>
 			
 
+<ul>
     {% for post in site.posts %}
-		<td>{{ post.date | date_to_string }}</td>
-		<td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
-		<td> {{ post.tag }} </td>
-		<td>{{ post.dvtools }}</td>
-		<td><a href="{{ post.author_links }}">{{ post.author }}</a></td>
-		<td>{{ post.releasing_time }}</td>
+      <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	  < {{ post.tag }} > {{ post.dvtools }} <a href="{{ post.author_links }}">{{ post.author }}</a> {{ post.releasing_time }}</li>
     {% endfor %}
+</ul>
 	
 
 			  
