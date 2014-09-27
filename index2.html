@@ -1,14 +1,17 @@
 ---
 layout: default
-title: 我的Blog
+title:  数据可视化开放发布
 ---
 
 <h2>{{ page.title }}</h2>
 
-<p>最新文章</p>
+<p>最新可视化作品</p>
 
 <ul>
     {% for post in site.posts %}
-      <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	  {{ post.tag }}{{ dvtools }} <a href="{{ post.authorlink }}">{{ author }}</a>{{ first published date }}</li>
     {% endfor %}
 </ul>
+
+<h1>{{ 群力维护它 }}</h1>
