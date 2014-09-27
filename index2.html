@@ -79,7 +79,7 @@ title:  数据可视化开放发布
               </tr>
             </thead>
 			
-
+<tr>
     {% for post in site.posts %}
 		<td>{{ post.date | date_to_string }}</td>
 		<td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
@@ -88,7 +88,7 @@ title:  数据可视化开放发布
 		<td><a href="{{ post.author_links }}">{{ post.author }}</a></td>
 		<td>{{ post.releasing_time }}</td>
     {% endfor %}
-				  
+</tr>				  
  
 		
           </table>
