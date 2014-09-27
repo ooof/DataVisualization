@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+---
+title:  数据可视化开放发布
+---
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -8,7 +12,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>ooof 可视化图表集</title>
+    <title>{{ page.title }}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +45,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <div class="navbar-brand">ooof 可视化作品集</div>
+          <div class="navbar-brand">{{ page.title }}</div>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -54,116 +58,38 @@
       </div>
     </div>
 <br><br>
-    <div class="container theme-showcase" role="main">
+    <div class="container theme-showcase" role="main">	
 
-
-
-			<table class="table">
+		<table class="table">					
             <thead>
               <tr>
-                <th>#</th>
-                <th>名称</th>
-                <th>类型</th>
+                <th>日期</th>
+                <th>图片名称</th>
+                <th>Tag</th>
                 <th>可视化工具</th>
-				<th>完成时间</th>
-
+				<th>设计者</th>
+				<th>首发时间</th>
               </tr>
             </thead>
-			
-			
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td><a href="dv/50-twitter/">50# 推友关系</a></td>
-                <td>社交网络</td>
-                <td>Gephi</td>
-				<td>2011/6/30</td>
-
-              </tr>
-              <tr>
-                <td>2</td>
-                <td><a href="dv/107t/">107t 推特关系图<a></td>
-                <td>社交网络</td>
-                <td>Gephi</td>
-				<td>2011/7/22</td>
-
-              </tr>
-              <tr>
-                <td>3</td>
-                <td><a href="dv/yindu/">印度宗教历程</a></td>
-                <td>历史流</td>
-                <td>yED</td>
-				<td>2011/7</td>
-
-              </tr>
-			  <tr>
-                <td>4</td>
-                <td><a href="dv/sjzongjiao/">世界宗教人口增长趋势图</a></td>
-                <td>物件关系</td>
-                <td>Excel 、TreeMap</td>
-				<td>2011/7</td>
-
-              </tr>
-			  <tr>
-                <td>5</td>
-                <td><a href="dv/xyjrw/">《西游记》人物关系</a></td>
-                <td>社交关系</td>
-                <td>Gephi</td>
-				<td>2011/7</td>
-
-              </tr>
-			  <tr>
-                <td>6</td>
-                <td><a href="dv/4000/">推来攘去4000年</a></td>
-                <td>历史流</td>
-                <td>BB FlashBack</td>
-				<td>2013/2</td>
-
-              </tr>
-			  <tr>
-                <td>7</td>
-                <td><a href="dv/rlqx/">人类情绪图谱</a></td>
-                <td>物件描述</td>
-                <td>Gephi</td>
-				<td>2013/2</td>
-
-              </tr>				  
-
-			  <tr>
-                <td>8</td>
-                <td><a href="dv/无锡公益团队数据/">ICCD无锡公益创新团队数据</a></td>
-                <td>物件描述</td>
-                <td>Gephi</td>
-				<td>2013/2</td>
-
-              </tr>	
-
-			  <tr>
-                <td>9</td>
-                <td><a href="dv/lf29-微友/">临汾29微友关系图</a></td>
-                <td>社交网络</td>
-                <td>Gephi</td>
-				<td>2013/2</td>
-
-              </tr>	
-
-			  <tr>
-                <td>10</td>
-                <td><a href="dv/linfenyusuan/">临汾政府信息公开（预算部分）</a></td>
-                <td>信息公开</td>
-                <td>Gephi 、ECharts</td>
-				<td>2014/9</td>
-
-              </tr>	
-			  
-            </tbody>
-			
+	
+			<tbody>
+				{% for post in site.posts %}
+					<tr>
+						<td>{{ post.date | date_to_string }}</td>
+						<td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
+						<td> {{ post.tag }} </td>
+						<td>{{ post.dvtools }}</td>
+						<td><a href="{{ post.author_links }}">{{ post.author }}</a></td>
+						<td>{{ post.releasing_time }}</td>
+					</tr>	
+				{% endfor %}
+			</tbody>			  
+		
           </table>
 
 
     </div> <!-- /container -->
-
-
+	
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -172,14 +98,6 @@
     <script src="js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-	
-	
-<div class="page-header"></div>	
-<center>
 
-
-
-</center>
-<div class="page-header"></div>		
   </body>
 </html>
