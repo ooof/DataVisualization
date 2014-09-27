@@ -6,18 +6,14 @@ dvtools: Gephi
 author: ooof
 author_links: http://digitip.net
 releasing_time: 2012/4/23
-source: http://ooof.github.io/DataVisualization/dv/50-twitter/img/
+source: http://ooof.github.io/DataVisualization/dv/50-twitter/
 ---
 
-{{ page.url }} <br>
-{{ page.path }} <br>
-{{ site.page }} <br>
-<img src="{{ site.url }}img/yinyue.jpg">
 
     <div class="container">
-     <center><img src="{{ page.source }}50-jin.png"></center>
+     <center><img src="{{ page.source }}img/50-jin.png"></center>
 
-	 
+	<p>{{ page.date | date_to_string }} < {{ post.tag }} > {{ post.dvtools }} <a href="{{ post.author_links }}">{{ post.author }}</a> {{ post.releasing_time }}</p> 
 	 
  <div class="page-header" > <!-- /.开放发布开始 -->
         <h1>参照 <a href="http://ooof.github.io/DataVisualization/DVOPI.html">DVOPI</a> 发布的开放文档</h1>
@@ -43,7 +39,7 @@ source: http://ooof.github.io/DataVisualization/dv/50-twitter/img/
               <h3 class="panel-title">所用数据</h3>
             </div>
             <div class="panel-body">
-              <ol><li><a href="db/twiyia-2011-7-1-page48.htm">名单部分</a></li></ol>
+              <ol><li><a href="{{ page.source }}db/twiyia-2011-7-1-page48.htm">名单部分</a></li></ol>
             </div>
           </div>
         </div>
@@ -55,8 +51,8 @@ source: http://ooof.github.io/DataVisualization/dv/50-twitter/img/
             </div>
             <div class="panel-body">
               <ol>
-			  <li><a href="graphml/twitter_100.graphml">yEd源文件</a></li>
-				<li><a href="gephi/twitter_100.gephi">Gephi源文件</a></li>
+			  <li><a href="{{ page.source }}graphml/twitter_100.graphml">yEd源文件</a></li>
+				<li><a href="{{ page.source }}gephi/twitter_100.gephi">Gephi源文件</a></li>
 				</ol>
             </div>
           </div>
@@ -68,7 +64,7 @@ source: http://ooof.github.io/DataVisualization/dv/50-twitter/img/
               <h3 class="panel-title">输出结果</h3>
             </div>
             <div class="panel-body">
-              <ol><li><a href="img/50-jin.png">图片</a></li></ol>
+              <ol><li><a href="{{ page.source }}img/50-jin.png">图片</a></li></ol>
             </div>
           </div>		  
         </div>
@@ -84,4 +80,4 @@ source: http://ooof.github.io/DataVisualization/dv/50-twitter/img/
         <p>数据用 Gabe Sawhney 的程序采集自推特，用 yEd 完成图形，所呈现的是 50 个推特用户之间的跟随关系。</p>
       </div>
 
-<p>{{ page.date | date_to_string }}</p>
+
