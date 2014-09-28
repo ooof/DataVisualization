@@ -1,0 +1,20 @@
+这个网页的tags ： {{ page.tags }} <br><br>
+
+全站tags：  {{ site.tags.情绪 }}  <br><br>
+
+所有 Pages 的清单 ：  {{ site.pages }}  <br><br>
+
+分类：   {{ site.categories.CATEGORY }}    <br><br>
+
+分类：   {{ site.tags.TAG }}    <br><br>
+
+				{% for post in site.posts %}
+					<tr>
+						<td>{{ post.date | date_to_string }}</td>
+						<td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
+						<td> {{ post.tag }} </td>
+						<td>{{ post.dvtools }}</td>
+						<td><a href="{{ post.author_links }}">{{ post.author }}</a></td>
+						<td>{{ post.releasing_time }}</td>
+					</tr>	
+				{% endfor %}
