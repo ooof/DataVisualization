@@ -87,9 +87,9 @@ title: 数据可视化开放发布
 				</tbody>			
           </table>
 
-		  {% for post in post.tags %}
-		  {{ post.tags() }}
-		  {% endfor %}
+{% for tag in site.tags %}
+    <a href="/show_by_tag.html?tag={{ tag[0] }}"> {{ tag[0] }}</a>
+{% endfor %}
 		  
 
     </div> <!-- /container -->
