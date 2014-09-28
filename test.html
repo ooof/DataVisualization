@@ -4,5 +4,9 @@ tags: 刘勇 电脑 计算机
 ---
 <br><br><br><br><br><br><br><br>
 
-这个网页的tags ： {{ page.tags }} <br><br>
+这个网页的tags ： {{ site.tags }} <br><br>
+
+{% for post in site.tags %}
+
+{% endfor %}
 
