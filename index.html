@@ -78,7 +78,9 @@ title: 数据可视化开放发布
 					<tr>
 						<td>{{ post.date | date_to_string }}</td>
 						<td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
-						<td> {{ post.tags }}</td>
+						<td> {{ post.tags }}  {% for tag in ost.tags %}
+    <a href="/show_by_tag.html?tag={{ tag[0] }}"> {{ tag[0] }}</a>
+	{% endfor %}</td>
 						<td>{{ post.dvtools }}</td>
 						<td><a href="{{ post.author_links }}">{{ post.author }}</a></td>
 						<td>{{ post.releasing_time }}</td>
@@ -87,9 +89,7 @@ title: 数据可视化开放发布
 				</tbody>			
           </table>
 
-{% for tag in site.tags %}
-    <a href="/show_by_tag.html?tag={{ tag[0] }}"> {{ tag[0] }}</a>
-{% endfor %}
+
 		  
 
     </div> <!-- /container -->

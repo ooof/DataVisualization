@@ -3,4 +3,8 @@ layout: layouts
 title: 数据可视化开放发布
 ---
 
-	{{ site.tags.linfen }}
+	{{ //site.tags.linfen }}
+	
+	{% for tag in site.tags %}
+    <a href="/show_by_tag.html?tag={{ tag[0] }}"> {{ tag[0] }}</a>
+	{% endfor %}
