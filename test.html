@@ -89,6 +89,32 @@ title: 数据可视化开放发布
 				</tbody>			
           </table>
 
+		  
+		  <h3><a href="{ { BASE_PATH }}{ { post.url }}">{ { post.title }}</a></h3>
+		  
+		  
+	<div class="c9">
+    Categories：
+        { %for cg in post.categories % }
+        <a href="/categories.html#-ref"></a>
+        { %if forloop.index < forloop.length % }
+        ,
+        { %endif%}
+        { %endfor%}
+    |
+    Tags：
+        { %for cg in post.tags %}
+        <a href="/tags.html#-ref"></a>
+        { %if forloop.index < forloop.length %}
+        ,
+        { %endif%}
+        { %endfor%}
+    |
+    Time：<time date="{ { post.date|date: '%Y-%m-%d' }}"></time>
+    <a href='#comments' title='分享文章、查看评论' style="float:right;margin-right:.5em;">Comments</a>
+</div>	  
+		  
+		  
 
     </div> <!-- /container -->
 	
