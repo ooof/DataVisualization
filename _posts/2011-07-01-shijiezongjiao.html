@@ -20,9 +20,8 @@ source: http://ooof.github.io/DataVisualization/dv/sjzongjiao/
 		<img src="{{ page.source }}img/世界宗教信仰人口图.png">
 	</center> 
 	<br>
-	<center> <!-- 可视化基本信息 -->
-		<p>{{ page.date | date_to_string }}  <{{ page.tag }}>  {{ page.dvtools }} <a href="{{ page.author_links }}">{{ page.author }}</a> {{ page.releasing_time }}</p>
-	</center>
+	
+{% include info.html %}
 	 
  <div class="page-header" > <!-- /.开放发布开始 -->
         <h1>参照 <a href="http://ooof.github.io/DataVisualization/DVOPI.html">DVOPI</a> 发布的开放文档</h1>
