@@ -1,0 +1,94 @@
+---
+layout: layouts
+title: 无锡训练营公益组织关系
+tags:
+ - 无锡
+ - NGO
+dvtools: Gephi
+author: ooof
+author_links: http://digitip.net
+releasing_time: 2012/4/23
+source: http://ooof.github.io/DataVisualization/dv/无锡公益团队数据/
+---
+
+<div class="container">
+
+	<!-- 页面上方展示的内容 -->
+	<center><img src="{{ page.source }}img/无锡公益团队.png"></center> 
+	<br>
+	<center> <!-- 可视化基本信息 -->
+		<p>{{ page.date | date_to_string }}  <{{ page.tag }}>  {{ page.dvtools }} <a href="{{ page.author_links }}">{{ page.author }}</a> {{ page.releasing_time }}</p>
+	</center>
+	 
+ <div class="page-header" > <!-- /.开放发布开始 -->
+        <h1>参照 <a href="http://ooof.github.io/DataVisualization/DVOPI.html">DVOPI</a> 发布的开放文档</h1>
+ </div>
+ 
+      <div class="row">	  
+        <div class="col-sm-12">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">数据来源</h3>
+            </div>
+            <div class="panel-body">   <!-- 下面填写开放发布的数据来源 -->
+              会议资料摘录
+            </div>
+          </div>
+		  </div>
+		</div>			  
+	  
+      <div class="row"><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">所用数据</h3>
+            </div>
+            <div class="panel-body">   <!-- 下面填写可视化所用数据 {{ page.source }} -->
+			<ol>
+				<li><a href="{{ page.source }}csv/公益数据.csv">边数据</a></li>
+			</ol>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-sm-4">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">过程文件</h3>
+            </div>
+            <div class="panel-body">   <!-- 下面填写过程文件 -->
+				<ol>
+					  <li><a href="{{ page.source }}gephi/无锡公益团队.gephi">公益团队 Gephi 文件</a></li>
+					  <li><a href="{{ page.source }}gephi/无锡公益团队.gexf">公益团队 Gexf 文件</a></li>
+				</ol>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-sm-4"><!-- /.col-sm-4 -->
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">输出结果</h3>
+            </div>
+            <div class="panel-body">     <!-- 下面填写各种方式的输出结果 -->
+              <ol>
+				<li><a href="{{ page.source }}index2.html">交互图形</a></li>
+				<li><a href="{{ page.source }}img/无锡公益团队2.jpg">大图</a></li>
+				</ol>
+            </div>
+          </div>		  
+        </div>
+		
+      </div> <!-- /.开放发布结束 -->
+
+
+
+      <div class="page-header">
+        <h1>制图说明</h1>
+      </div>
+      <div class="well">    <!-- 下面填写图片故事或制图过程/技术说明 -->
+        <p>这个图展示了一些NGO组织的基本情况，包括人员数量、工作地点、技术需求、运行费用来源四方面信息。</p>
+      </div>
+
+

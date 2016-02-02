@@ -1,0 +1,154 @@
+---
+layout: layouts_ms_zoom
+title: 107t 推特关系图
+tags:
+ - 推特
+ - twitter
+dvtools: Gephi
+author: ooof
+author_links: http://digitip.net
+releasing_time: 2011/7/23
+source: http://ooof.github.io/DataVisualization/dv/107t/
+GeneratedImages: http://ooof.github.io/DataVisualization/dv/107t/GeneratedImages/dzc_output.xml
+---
+
+
+ <div class="page-header" > <!-- /.开放发布开始 -->
+        <h1>参照 <a href="http://ooof.github.io/DataVisualization/DVOPI.html">DVOPI</a> 发布的开放文档</h1>
+ </div>
+ 
+      <div class="row">	  
+        <div class="col-sm-12">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">数据来源</h3>
+            </div>
+            <div class="panel-body">   <!-- 下面填写开放发布的数据来源 -->
+              采集自推特
+            </div>
+          </div>
+		  </div>
+		</div>			  
+	  
+      <div class="row"><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">所用数据</h3>
+            </div>
+            <div class="panel-body">   <!-- 下面填写可视化所用数据 {{ page.source }} -->
+              <ol>
+				  <li><a href="{{ page.source }}csv/107t-name-list.txt">107t 用户名列表</a></li>
+				  <li><a href="{{ page.source }}csv/107t_2011-7-11.csv">107t 好友数据</a> </li>
+			  </ol>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-sm-4">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">过程文件</h3>
+            </div>
+            <div class="panel-body">   <!-- 下面填写过程文件 -->
+               <ol>
+				<li><a href="{{ page.source }}gephi/107t-20140904-ys.gephi">未处理 Gephi 文件</a></li>
+				<li><a href="{{ page.source }}gephi/107t.gephi">处理好的 Gephi</a></li>
+				</ol>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-sm-4"><!-- /.col-sm-4 -->
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">输出结果</h3>
+            </div>
+            <div class="panel-body">     <!-- 下面填写各种方式的输出结果 -->
+              <ol>
+			  <li><a href="{{ page.source }}index2.html">107t-3d</a></li>
+			  <li><a href="{{ page.source }}index3.html">107t-运动过程</a></li>
+			  <li><a href="{{ page.source }}index4.html">107t-28跟随前28位</a></li>
+			  </ol>
+            </div>
+          </div>		  
+        </div>
+		
+      </div> <!-- /.开放发布结束 -->
+
+
+
+      <div class="page-header">
+        <h1>制图说明</h1>
+      </div>
+      <div class="well">    <!-- 下面填写图片故事或制图过程/技术说明 -->
+       <p>这是一个尝试（或者说是开端），试图通过分析 twitter 一个局部的切片，来揭示由 twitter 中文用户群体所构成的信息空间具有什么样的形态特征。 大致通过以下三步实现：<br>
+
+一、以一定的规则选取一批用户 首先，这次实验用以下规则选取一批用户：<br>
+2011年1月1日前注册；<br>
+至少2011年3月仍然活跃；<br>
+跟随数为100。<br><br>
+
+共选出符合用户107位，以下简称为 107t 。<br> 
+
+二、统计 107t 的基本情况 <br>在第二步主要是统计用户的注册时间、所在地、用户网址、发推数量分布，并初步总结他们的群体特征。另外有一个辅助比较，可以大致标注一下 107t 的跟随增长幅度。以下分别说明，最后是一个小总结。 <br>
+
+1. 107t 注册时间段<br><br>
+2007年注册的9位；<br>
+2008年注册的8位；<br>
+2009年注册的52位；<br>
+2010年注册的38位。<br><br>
+2. 107t 在简介中填写的所在地 共有88个用户填写了所在地。<br><br>
+Seoul ： 1<br>
+Quito	：1<br>
+Hawaii ：1<br>
+Abu Dhabi ：1<br>
+Chongqing ：1<br>
+jakata ：2<br>
+Sydney ： 2<br>
+Taipei ：2<br>
+London ： 3<br>
+Tokyo ：4<br>
+Kuala Lumpur：6<br>
+Hong Kong ：	7<br>
+Alaska ： 7<br>
+Singapore ：9<br>
+Beijing	41<br><br>
+3. 107t 在简介中填写的网址 <br><br>用户个人网站往往是一个用户在网络空间中最重要的构成信息，因此特别从用户简介中提取出用户网站网址，共50个，分为六种类型，分别统计数量如下<br>
+独立Blog 16<br>
+blogspot.com 11<br>
+wordpress.com 4<br>
+facebook.com 4<br>
+google.com/profiles 3<br>
+其它空间 12<br><br>
+4. 107t 的发帖情况统计 发推总量幅度 用户数量<br><br>
+1-990 : 47<br>
+1000-1999: 27<br>
+2000-2999 : 7<br>
+3000-3999: 8<br>
+4000-4999: 10<br>
+5000-5999: 2<br>
+6000-6999: 2<br>
+7000-7999: 1<br>
+8000-8999: 1<br>
+9000-9999 : 0<br>
+>10000: 2<br><br>
+总发推量： 219470，平均发推量： 2051.121495 ，其中发推量高的前21位用户，发推量占总量的 83% 。 <br><br>
+
+5.一个比较 <br><br>据另外一项统计，2011年1月1日到2011年5月26日注册的12751位用户中，有3.6%的用户跟随数超过了100，并有两位用户跟随数超过了 13000，32位用户超过了 1000 。<br>
+
+以此做参照，107t 不属于跟随数增长较快的一类用户。 <br>
+
+以上统计反映出 107t 的一些特点如下：<br><br>
+107t 中有69位是2010年前注册，到2011年仍然活跃，应该算是比较坚持的用户；<br>
+中文国外用户占有不小的比例；<br>
+一部分 107t 用户也是 Blog活跃用户；<br>
+从20% 用户发推量占总量的80% ，进一步表明这是一个有代表性的群体；<br>
+107t 的跟随增长较平缓。<br>
+总体来看，107t 属于稳健而活跃、分布范围广泛，书写能力殷实的twitter 的子群体。 <br><br>
+
+</p>
+      </div>
+
+

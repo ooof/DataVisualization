@@ -1,0 +1,298 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>107t - 推特关系图</title>
+	
+	
+    <style type="text/css">
+        body {
+            margin: 0px;
+            font-family: Verdana;
+            line-height: 1.25em;
+        }
+        #content {
+            width: 600px;
+            margin-left: 10px;
+        }
+
+        #container {
+            width: auto;
+            height: 560px;
+            background-color: black;
+            border: 1px solid black;
+            color: white;   /* for error messages */
+        }
+    </style>
+    
+    <script type="text/javascript" src="../../js/seadragon-min.js"></script>
+    <script type="text/javascript">
+        var viewer;
+
+        function init() {
+            viewer = new Seadragon.Viewer("container");
+            viewer.openDzi("GeneratedImages/dzc_output.xml");
+        }
+        
+        // Seadragon Ajax tutorials:
+        // http://seadragon.com/ajax/
+        
+        // Seadragon Ajax API reference:
+        // http://seadragon.com/ajax/0.8/doc/
+        
+        // Seadragon Ajax community support:
+        // http://getsatisfaction.com/livelabs/products/livelabs_seadragon_ajax/
+
+        Seadragon.Utils.addEvent(window, "load", init);
+    </script>
+	
+	
+	
+	
+	
+	
+	
+	
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap theme -->
+    <link href="../../css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/navbar-fixed-top.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->	
+	
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="ooof">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand">ooof 可视化作品集</div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../about.html">关于</a></li>
+            <li><a href="../../DVOPI.html">数据可视化开放发布倡议</a></li>
+          </ul>
+            </li>
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>	
+    </div>
+
+
+       
+
+	
+    <div class="container">
+
+    <!-- Seadragon Ajax container -->
+    <div id="container">
+    </div>
+
+
+<div class="page-header" >
+        <h1>参照 <a href="http://ooof.github.io/DataVisualization/DVOPI.html">DVOPI</a> 发布的开放文档</h1>
+ </div>
+      <div class="row"><!-- /.col-sm-4 -->	  
+        <div class="col-sm-12">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">数据来源</h3>
+            </div>
+            <div class="panel-body">
+              采集自推特
+            </div>
+          </div>
+		  </div>
+		</div>			  
+	  
+      <div class="row"><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">所用数据</h3>
+            </div>
+            <div class="panel-body">
+              <ol>
+				  <li><a href="csv/107t-name-list.txt">107t 用户名列表</a></li>
+				  <li><a href="csv/107t_2011-7-11.csv">107t 好友数据</a> </li>
+			  </ol>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-sm-4"><!-- /.col-sm-4 -->
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">过程文件</h3>
+            </div>
+            <div class="panel-body">
+               <ol>
+				<li><a href="gephi/107t-20140904-ys.gephi">未处理 Gephi 文件</a></li>
+				<li><a href="gephi/107t.gephi">处理好的 Gephi</a></li>
+				</ol>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-sm-4"><!-- /.col-sm-4 -->
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">输出结果</h3>
+            </div>
+            <div class="panel-body">
+              <ol>
+			  <li><a href="index2.html">107t-3d</a></li>
+			  <li><a href="index3.html">107t-运动过程</a></li>
+			  <li><a href="index4.html">107t-28跟随前28位</a></li>
+			  </ol>
+            </div>
+          </div>		  
+        </div>
+		
+      </div>
+	  
+	
+
+      <div class="page-header">
+        <h1>制图说明</h1>
+      </div>
+      <div class="well">
+        <p>这是一个尝试（或者说是开端），试图通过分析 twitter 一个局部的切片，来揭示由 twitter 中文用户群体所构成的信息空间具有什么样的形态特征。 大致通过以下三步实现：<br>
+
+一、以一定的规则选取一批用户 首先，这次实验用以下规则选取一批用户：<br>
+2011年1月1日前注册；<br>
+至少2011年3月仍然活跃；<br>
+跟随数为100。<br><br>
+
+共选出符合用户107位，以下简称为 107t 。<br> 
+
+二、统计 107t 的基本情况 <br>在第二步主要是统计用户的注册时间、所在地、用户网址、发推数量分布，并初步总结他们的群体特征。另外有一个辅助比较，可以大致标注一下 107t 的跟随增长幅度。以下分别说明，最后是一个小总结。 <br>
+
+1. 107t 注册时间段<br><br>
+2007年注册的9位；<br>
+2008年注册的8位；<br>
+2009年注册的52位；<br>
+2010年注册的38位。<br><br>
+2. 107t 在简介中填写的所在地 共有88个用户填写了所在地。<br><br>
+Seoul ： 1<br>
+Quito	：1<br>
+Hawaii ：1<br>
+Abu Dhabi ：1<br>
+Chongqing ：1<br>
+jakata ：2<br>
+Sydney ： 2<br>
+Taipei ：2<br>
+London ： 3<br>
+Tokyo ：4<br>
+Kuala Lumpur：6<br>
+Hong Kong ：	7<br>
+Alaska ： 7<br>
+Singapore ：9<br>
+Beijing	41<br><br>
+3. 107t 在简介中填写的网址 <br><br>用户个人网站往往是一个用户在网络空间中最重要的构成信息，因此特别从用户简介中提取出用户网站网址，共50个，分为六种类型，分别统计数量如下<br>
+独立Blog 16<br>
+blogspot.com 11<br>
+wordpress.com 4<br>
+facebook.com 4<br>
+google.com/profiles 3<br>
+其它空间 12<br><br>
+4. 107t 的发帖情况统计 发推总量幅度 用户数量<br><br>
+1-990 : 47<br>
+1000-1999: 27<br>
+2000-2999 : 7<br>
+3000-3999: 8<br>
+4000-4999: 10<br>
+5000-5999: 2<br>
+6000-6999: 2<br>
+7000-7999: 1<br>
+8000-8999: 1<br>
+9000-9999 : 0<br>
+>10000: 2<br><br>
+总发推量： 219470，平均发推量： 2051.121495 ，其中发推量高的前21位用户，发推量占总量的 83% 。 <br><br>
+
+5.一个比较 <br><br>据另外一项统计，2011年1月1日到2011年5月26日注册的12751位用户中，有3.6%的用户跟随数超过了100，并有两位用户跟随数超过了 13000，32位用户超过了 1000 。<br>
+
+以此做参照，107t 不属于跟随数增长较快的一类用户。 <br>
+
+以上统计反映出 107t 的一些特点如下：<br><br>
+107t 中有69位是2010年前注册，到2011年仍然活跃，应该算是比较坚持的用户；<br>
+中文国外用户占有不小的比例；<br>
+一部分 107t 用户也是 Blog活跃用户；<br>
+从20% 用户发推量占总量的80% ，进一步表明这是一个有代表性的群体；<br>
+107t 的跟随增长较平缓。<br>
+总体来看，107t 属于稳健而活跃、分布范围广泛，书写能力殷实的twitter 的子群体。 <br><br>
+
+</p>
+      </div>
+	 
+
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50e1619d35fde696"></script>
+
+
+
+
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'myvisualization'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+    </div> <!-- /container -->
+
+	
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>107t - 推特关系图</title>
+	
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap theme -->
+    <link href="../../css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/navbar-fixed-top.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->	
+	
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="ooof">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand">ooof 可视化作品集</div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../about.html">关于</a></li>
+            <li><a href="../../DVOPI.html">数据可视化开放发布倡议</a></li>
+          </ul>
+            </li>
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>	
+    </div>
+
+
+
+
+	
+    <div class="container">
+
+     <img src="img/107t-yd/107t-3.jpg">
+	 <img src="img/107t-yd/all.jpg">
+
+	 
+ <div class="page-header" >
+        <h1>参照 <a href="http://ooof.github.io/DataVisualization/DVOPI.html">DVOPI</a> 发布的开放文档</h1>
+ </div>
+      <div class="row"><!-- /.col-sm-4 -->	  
+        <div class="col-sm-12">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">数据来源</h3>
+            </div>
+            <div class="panel-body">
+              采集自推特
+            </div>
+          </div>
+		  </div>
+		</div>			  
+	  
+      <div class="row"><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">所用数据</h3>
+            </div>
+            <div class="panel-body">
+              <ol>
+				  <li><a href="csv/107t-name-list.txt">107t 用户名列表</a></li>
+				  <li><a href="csv/107t_2011-7-11.csv">107t 好友数据</a> </li>
+			  </ol>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-sm-4"><!-- /.col-sm-4 -->
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">过程文件</h3>
+            </div>
+            <div class="panel-body">
+               <ol>
+				<li><a href="gephi/107t-20140904-ys.gephi">未处理 Gephi 文件</a></li>
+				<li><a href="gephi/107t.gephi">处理好的 Gephi</a></li>
+				</ol>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-sm-4"><!-- /.col-sm-4 -->
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">输出结果</h3>
+            </div>
+            <div class="panel-body">
+              <ol>
+			  <li><a href="index2.html">107t-3d</a></li>
+			  <li><a href="index3.html">107t-运动过程</a></li>
+			  <li><a href="index4.html">107t-28跟随前28位</a></li>
+			  </ol>
+            </div>
+          </div>		  
+        </div>
+		
+      </div>
+
+
+      <div class="page-header">
+        <h1>制图说明</h1>
+      </div>
+      <div class="well">
+        <p>数据用 Gabe Sawhney 的程序采集自推特，用 yEd 完成图形，所呈现的是 50 个推特用户之间的跟随关系。</p>
+      </div>
+	 
+
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50e1619d35fde696"></script>
+
+
+
+
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'myvisualization'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+    </div> <!-- /container -->
+
+	
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+---
+layout: layouts
+title: 临汾29微友关系可视化
+tags:
+ - 临汾
+ - linfen
+ - 微博
+ - weibo
+ - 关系
+dvtools: Gephi
+author: ooof
+author_links: http://digitip.net
+releasing_time: 2012/4/23
+source: http://ooof.github.io/DataVisualization/dv/lf29-微友/
+---
+
+<div class="container">
+
+	<!-- 页面上方展示的内容 -->
+	<center><img src="{{ page.source }}img/lf29-圆形.png"></center> 
+	<br>
+	<center> <!-- 可视化基本信息 -->
+		<p>{{ page.date | date_to_string }}  <{{ page.tag }}>  {{ page.dvtools }} <a href="{{ page.author_links }}">{{ page.author }}</a> {{ page.releasing_time }}</p>
+	</center>
+	 
+ <div class="page-header" > <!-- /.开放发布开始 -->
+        <h1>参照 <a href="http://ooof.github.io/DataVisualization/DVOPI.html">DVOPI</a> 发布的开放文档</h1>
+ </div>
+ 
+      <div class="row">	  
+        <div class="col-sm-12">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">数据来源</h3>
+            </div>
+            <div class="panel-body">   <!-- 下面填写开放发布的数据来源 -->
+              微博数据
+            </div>
+          </div>
+		  </div>
+		</div>			  
+	  
+      <div class="row"><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">所用数据</h3>
+            </div>
+            <div class="panel-body">   <!-- 下面填写可视化所用数据 {{ page.source }} -->
+			<ol>
+				<li><a href="{{ page.source }}csv/临汾29微友-名单.txt">临汾29微友名单</a></li>
+				<li><a href="{{ page.source }}csv/临汾29微友-互粉关系.rar">临汾29微友各自互粉名单</a></li>
+				<li><a href="{{ page.source }}csv/临汾29微友-互粉关系-合集.csv">临汾29微友互粉关系合集</a></li>
+			</ol>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-sm-4">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">过程文件</h3>
+            </div>
+            <div class="panel-body">   <!-- 下面填写过程文件 -->
+				<ol>
+					  <li><a href="{{ page.source }}gephi/lf29-圆形.gephi">圆形</a></li>
+					  <li><a href="{{ page.source }}gephi/lf29-多圆.gephi">多圆</a></li>
+					  <li><a href="{{ page.source }}gephi/lf29-方形.gephi">方形</a></li>
+					  <li><a href="{{ page.source }}gephi/lf29-飞扬.gephi">飞扬</a></li>
+				</ol>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-sm-4"><!-- /.col-sm-4 -->
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">输出结果</h3>
+            </div>
+            <div class="panel-body">     <!-- 下面填写各种方式的输出结果 -->
+              <ol>
+				<li><a href="{{ page.source }}img/lf29-圆形.png">圆形</a></li>
+				<li><a href="{{ page.source }}img/lf29-多圆.png">多圆</a></li>
+				<li><a href="{{ page.source }}img/lf29-方形.png">方形</a></li>
+				</ol>
+            </div>
+          </div>		  
+        </div>
+		
+      </div> <!-- /.开放发布结束 -->
+
+
+
+      <div class="page-header">
+        <h1>制图说明</h1>
+      </div>
+      <div class="well">    <!-- 下面填写图片故事或制图过程/技术说明 -->
+        <p>临汾29个微博之间的关系图</p>
+      </div>
+
+

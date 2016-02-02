@@ -1,0 +1,85 @@
+---
+layout: layouts
+title: 50推友关系图
+tags:
+ - 推特
+ - twitter
+dvtools: Gephi
+author: ooof
+author_links: http://digitip.net
+releasing_time: 2012/4/23
+source: http://ooof.github.io/DataVisualization/dv/50-twitter/
+---
+
+
+    <div class="container">
+     <center><img src="{{ page.source }}img/50-jin.png"></center>
+
+	<p>{{ page.date | date_to_string }} < {{ page.tag }} > {{ page.dvtools }} <a href="{{ page.author_links }}">{{ page.author }}</a> {{ page.releasing_time }}</p> 
+	 
+ <div class="page-header" > <!-- /.开放发布开始 -->
+        <h1>参照 <a href="http://ooof.github.io/DataVisualization/DVOPI.html">DVOPI</a> 发布的开放文档</h1>
+ </div>
+      <div class="row"><!-- /.col-sm-4 -->	  
+        <div class="col-sm-12">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">数据来源</h3>
+            </div>
+            <div class="panel-body">
+              采集自推特
+            </div>
+          </div>
+		  </div>
+		</div>			  
+	  
+      <div class="row"><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">所用数据</h3>
+            </div>
+            <div class="panel-body">
+              <ol><li><a href="{{ page.source }}db/twiyia-2011-7-1-page48.htm">名单部分</a></li></ol>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-sm-4"><!-- /.col-sm-4 -->
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">过程文件</h3>
+            </div>
+            <div class="panel-body">
+              <ol>
+			  <li><a href="{{ page.source }}graphml/twitter_100.graphml">yEd源文件</a></li>
+				<li><a href="{{ page.source }}gephi/twitter_100.gephi">Gephi源文件</a></li>
+				</ol>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-sm-4"><!-- /.col-sm-4 -->
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">输出结果</h3>
+            </div>
+            <div class="panel-body">
+              <ol><li><a href="{{ page.source }}img/50-jin.png">图片</a></li></ol>
+            </div>
+          </div>		  
+        </div>
+		
+      </div> <!-- /.开放发布结束 -->
+
+
+
+      <div class="page-header">
+        <h1>制图说明</h1>
+      </div>
+      <div class="well">
+        <p>数据用 Gabe Sawhney 的程序采集自推特，用 yEd 完成图形，所呈现的是 50 个推特用户之间的跟随关系。</p>
+      </div>
+
+

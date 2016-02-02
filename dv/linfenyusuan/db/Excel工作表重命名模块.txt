@@ -1,0 +1,12 @@
+Sub 新工作表名()
+    Dim i As Long
+    Application.ScreenUpdating = False
+    For i = 1 To Worksheets.Count
+        Worksheets(i).Name = "刘勇" & i
+    Next i
+    Application.ScreenUpdating = True
+End Sub
+
+
+
+Alt + F11 可以新建模块
